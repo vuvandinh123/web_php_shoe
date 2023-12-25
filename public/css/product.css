@@ -1,0 +1,367 @@
+.loc{
+    /* margin: 70px 0px;
+    margin-left: 100px; */
+    top: 10px;
+    left: 60px;
+   position:sticky;
+    width: 250px;
+    border:1px solid rgba(0,0,0,0.1);
+    height: 1500PX;
+    
+}
+.conten{
+display: flex;
+width: 100%;
+}
+form{
+    margin-top: 70px;
+    width: 38%;
+}
+.loc h3{
+    margin-left: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10PX;
+}
+input[type='radio']:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #e6e3e3;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='radio']:checked:after {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:#FE6B5E;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='checkbox']:after {
+    width: 10px;
+    height: 10px;
+    /* border-radius: 10px; */
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #e6e3e3;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+input[type='checkbox']:checked:after {
+    width: 10px;
+    height: 10px;
+    /* border-radius: 10px; */
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color:#FE6B5E;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+.loc input{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+.loc label{
+    color: rgba(0,0,0,0.6);
+ }
+.loc label:hover{
+   color: rgb(204, 157, 68);
+}
+/* ---------------------------------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+i{
+    color: aliceblue;
+}
+
+/* ---------------------- */
+
+/* ---------------------------------------------------------------- */
+/* ---------------------------------------------------------------- */
+
+
+.content{
+    width: 100%;
+    margin: 5px 7%;
+    
+}
+.content .noidung{
+    width: 18%;
+   /* margin: 25px; */
+   margin: 10px 230px;
+  
+    float: left;
+    color: rgba(39, 29, 29, 0.751);
+    cursor: pointer;
+    height: 400px;
+    margin-left: -90px;
+   
+}
+
+.content .noidung h3{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.content .noidung h3:hover{
+    color:  rgb(214, 136, 33);
+}
+.content .noidung h2{
+    color: rgb(214, 136, 33);
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.content .noidung p{
+    color:  rgba(39, 29, 29, 0.451);
+    font-size: 12px;
+}
+.content .noidung img{
+    width: 280px;
+}
+.content .noidung .nd1 .anh2 {
+display: none;
+}
+.content .noidung .nd1:hover .anh1{
+    display: none;
+    
+}
+.content .noidung .nd1:hover div{
+    display: block;
+}
+.nd1 i{
+    position: absolute;
+    margin-top: -275px;
+    margin-left: 250px;
+    color: rgb(75, 62, 62);
+}
+.nd1 i:active{
+    /* background-color: red; */
+    color: red;
+}
+.nd1 .anh2 a{
+    
+}
+.nd1 .size ul{
+position: absolute;
+    margin-top: -30px;
+    color: rgb(19, 20, 11);
+    display: flex;
+   
+}
+.nd1 .size ul li:nth-child(2){
+color: rgb(197, 113, 45);
+text-decoration-line: underline;
+}
+.nd1 .size ul li{
+    padding: 0 5px;
+    color: rgba(39, 29, 29, 1);
+    font-size: 13px;
+}
+
+.nd1 .size ul li:hover{
+    color: rgb(197, 113, 45);
+    text-decoration-line: underline;
+}
+.nd1 a i{
+    margin-top: 2px;
+   
+    
+    
+    margin-top: -235px;
+    margin-left: 250px;
+    color: rgb(75, 62, 62);
+}
+.nd1 a i:hover{
+    color: rgb(197, 113, 45);
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .content{
+        width: 100%;
+        margin: 0px auto;
+        
+        
+    }
+    .snack{
+        display: none;
+    }
+  .new h1{
+    font-size: 30px;
+   }
+    
+    .content .noidung{
+        display: flex;
+        flex-wrap: wrap;
+        width: 30%;
+       margin-left: 7%;
+       height: 220px;
+       
+    }
+    
+    .noidung h3{
+        width: 160px;
+    }
+    .content .noidung .nd1 img{
+        width: 160px;
+    }
+   
+    .nd1 .size ul{
+        position: absolute;
+            margin-top: -30px;
+            color: rgb(19, 20, 11);
+            display: flex;
+           
+        }
+        .nd1 .size ul li:nth-child(2){
+        color: rgb(197, 113, 45);
+        text-decoration-line: underline;
+        }
+        .nd1 .size ul li{
+            padding: 0 5px;
+            color: rgba(39, 29, 29, 1);
+            font-size: 13px;
+        }
+        
+        .nd1 .size ul li:hover{
+            color: rgb(197, 113, 45);
+            text-decoration-line: underline;
+        }
+        .nd1 i{
+            margin-top: 2px;
+           
+            
+            position: absolute;
+            margin-top: -154px;
+            margin-left: 134px;
+            color: rgb(75, 62, 62);
+        }
+        .sale2 span{
+            position: absolute;
+            margin-top: -155px;
+            text-align: center;
+            width: 50px;
+            height: 20px;
+            background-color: rgb(225, 57, 28);
+            color: aliceblue;
+            font-size: 15px;
+        }
+}
+.tin-tuc::after {
+    content: "";
+    display: block;
+    width: 100%;
+    z-index: 0;
+    height: 5px;
+    left: 0;
+    right: 0;
+    background-color: red;
+}
+
+.tin-tuc a {
+    /* display: block; */
+    position: relative;
+    top: 15px;
+    padding: 0 10px;
+    z-index: 1;
+    text-align: center;
+    ;
+    height: 50px;
+    /* height: 30px; */
+    background-color: white;
+    ;
+}
+
+.img-tintuc {
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.img-tintuc img {
+    transition: .3s;
+}
+
+.img-tintuc:hover img {
+    transform: scale(1.1);
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .content{
+        width: 100%;
+        margin: 0px auto;
+        
+        
+    }
+    
+    .new h1{
+        margin-top: 100px;
+    }
+    .content .noidung{
+        display: flex;
+        flex-wrap: wrap;
+        width: 20%;
+       margin-left: 7%;
+       height: 270px;
+       
+    }
+    
+    .noidung h3{
+        width: 160px;
+    }
+    .content .noidung .nd1 img{
+        width: 200px;
+    }
+    .nd1 i{
+        margin-top: 2px;
+       
+        
+        position: absolute;
+        margin-top: -190px;
+        margin-left: 165px;
+        color: rgb(75, 62, 62);
+    }
+    .sale2 span{
+        position: absolute;
+        margin-top: -190px;
+        text-align: center;
+        width: 50px;
+        height: 20px;
+        background-color: rgb(225, 57, 28);
+        color: aliceblue;
+        font-size: 15px;
+    }
+}

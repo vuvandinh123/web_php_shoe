@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto","HelveticaNeue","Helvetica Neue",sans-serif; */
+}
+::-webkit-scrollbar {
+    width: 5px; /* Chiều rộng của thanh cuộn */
+  }
+  
+::-webkit-scrollbar-thumb {
+    background-color: #ff6702; /* Màu nền của thanh cuộn */
+    border-radius: 5px; /* Độ cong góc của thanh cuộn */
+  }
+  
+::-webkit-scrollbar-track {
+    background-color: #525252; /* Màu nền của vùng chứa thanh cuộn */
+  }
+html{
+    font-size: 62.5% !important;
+}
+a{
+    text-decoration: none;
+}
+
+.a-hover{
+    color: black;
+}
+.a-hover-white{
+    color: white;;
+}
+.a-hover:hover,.a-hover-white:hover{
+    color: #ff2d37;
+}
+ul{
+    list-style: none;
+}
+
+.img-logo img{
+    width: 180px;
+    height: 87px;
+}
+.search{
+    border-radius: 30px 0 0 30px;
+    
+    font-size: 1.5rem;
+    height: 45px;
+    padding-left: 25px;
+}
+.support{
+    width: 200px;
+    position: relative;
+    font-size: 1.5rem;
+    line-height: 20px;
+    height: 45px;
+    color: #ff2d37;
+}
+.support:after {
+    content: "\f095";
+    font-family: 'FontAwesome';
+    font-size: 2.3rem;
+    position: absolute;
+    right: 7px;
+    top: 12px;
+    color: #fff;
+}
+.support::before{
+    content: "";
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    right: -2px;
+    
+}
+.support:hover{
+    background-color: rgba(255, 77, 0, 0.514);
+    color: #fff;
+    cursor: pointer;
+}
+.search-button{
+    border-radius: 30px 30px 30px 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+   padding-right: 20px;
+}
+.account-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: red;
+   
+    
+}
+.account{
+    position: relative;
+    width: 30px;
+   
+}
+.icon-hover{
+    width: 180px;
+    height: 130px;
+    top: 80px;
+    right: -70px;
+    cursor: pointer;
+    position:absolute;
+    z-index: 99;
+    display: none;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.icon-hover::before{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 10px;
+    /* background-color: transform; */
+    z-index: 999;
+    transform: translateY(-100%);
+}
+.icon-hover .btn-hover {
+    display: block;
+    width: 130px;
+    background: #ff2d37;
+    color: #fff;
+    border: solid 1px #ff2d37;
+    height: 40px;
+    line-height: 35px;
+    border-radius: 25px;
+    margin: 0 auto;
+   
+}
+.input{
+    width: 100px;
+    height: 100px;
+}
+.account:hover .icon-hover{
+    display: block;
+    
+}
+ .dn:hover{
+   color: #ff2d37;
+    background-color: #fff;
+}
+.dk:hover{
+    color: #ff2d37;
+     background-color: #fff;
+ }
+ 
+.fa-angle-down:before {
+    content: "\f107";
+}
+.pss{
+    position: relative;
+    height: 100%;
+}
+.nav-item-sp{
+    line-height: 3;
+}
+.nav-item-sp .nav-item-hover1{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    top: 50px;
+    right: 0;
+    /* height: 270PX; */
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    opacity: 0;
+    transition: 0.5s;
+    transform: perspective(600px) rotateX(-90deg);
+    transition: transform 0.5s ease, opacity 0.6s ease, max-height 0.6s step-end, max-width 0.6s step-end, padding 0.6s step-end;
+    box-shadow: 0 1px 2px 2px rgb(0 0 0 / 20%);
+    transform-origin: 0% 0%;
+    z-index: 99;
+    box-shadow: 0px 10px 21.6px 2.4px rgb(0 0 0 / 6%);
+}
+
+.nav-item-sp:hover .nav-item-hover1{
+    opacity: 1;
+    overflow: visible;
+    /* height: 270PX; */
+    transform: perspective(600px) rotateX(0deg);
+    transition: transform 0.5s ease, opacity 0.2s ease, max-height 0s step-end, max-width 0s step-end, padding 0s step-end;
+    
+}
+.nav-item-hover1 div:nth-child(1)::after{
+   content: "";
+   padding: 10px 0;
+   width: 100%;
+   border-bottom: 1px solid rgba(175, 169, 169, 0.442);
+}
+.dropdown-item{
+    height: 30px;
+}
+.aaa:not(.collapsed)::after {
+    display: none;
+}
+.aaa::after {
+
+    background-image: unset;
+
+}
+.nav{
+    background-color: #ff2d37;
+    height: 50px;
+ }
+.nav-1{
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.nav-1>ul{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 1%;
+}
+.nav-item-hover1 div:nth-child(1)::before{
+    content: "";
+   width: 100%;
+   height: 40px;
+   position: absolute;
+   background-color: transparent;
+   transform: translateY(-100%);
+ }
+.drop_down-item{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-sidebar{
+    background-color: #ffff;
+    width: 320px;
+    z-index: 999;
+    right: 0;
+    top: 50px;
+    display: none;
+}
+.cart{
+    cursor: pointer;
+    position: relative;
+}
+.cart::before{
+    content: attr(data-count);
+    width: 25px;
+    height: 25px;
+    background: #FFC0CB;
+    text-align: center;
+    line-height: 25px;
+    color: #000000;
+    color: red;
+    right: 0;
+    top: -10px;
+    font-weight: bold;
+    border-radius: 50%;
+    position: absolute;
+}
+.cart-hide::before{
+    display: none;
+}
+.cart::after{
+    height: 30px;
+    content: '';
+    position: absolute;
+    width: 50px;
+    transform: translateY(90%);
+    right: 0;
+    bottom: 0;
+}
+.cart:hover .cart-sidebar{
+    display: block;
+    position: relative;
+}
+.cart-img{
+    width: 200px;
+}
+.cart-top{
+    max-height: 250px;
+    overflow-y: scroll;
+
+}
+.cart-top::-webkit-scrollbar {
+    width: 5px; /* Chiều rộng của thanh cuộn */
+  }
+  
+  .cart-top::-webkit-scrollbar-thumb {
+    background-color: #ff6702; /* Màu nền của thanh cuộn */
+    border-radius: 5px; /* Độ cong góc của thanh cuộn */
+  }
+  
+  .cart-top::-webkit-scrollbar-track {
+    background-color: #ffffff; /* Màu nền của vùng chứa thanh cuộn */
+  }
+.thanh-toan{
+    text-align:center ;
+    margin: 5px;
+}
+.thanh-toan button{
+    width: 80%;
+    height: 35px;
+    background-color: #ff2d37;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+
+}
+@media only screen and (max-width: 767px) {
+   
+    .search{
+        display: none;
+        
+    }
+    .mobie-nav{
+        justify-content: end;
+    }
+    .bars-nav{
+        font-size: 30px;
+    }
+    .img-logo img{
+        width: 100%;
+        height: 100%;
+    }
+    
+  }

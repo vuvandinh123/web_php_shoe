@@ -1,0 +1,336 @@
+/* hearder */
+.hover-a:hover{
+color:  rgb(248, 174, 105);
+}
+
+a{
+    color: #fff;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+.link-side img{
+    border: 1px solid rgba(51, 51, 51, 0.482);
+    margin-left: 8px;
+}
+.link-side img:hover{
+   
+    box-shadow: rgba(255, 42, 42, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border: 2px solid red;
+}
+.thong-tin{
+    border: 1px solid rgba(51, 51, 51, 0.123);
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 350;
+    
+}
+.text a{
+    color: black;
+}
+.thuong-hieu{
+    position: relative;
+    margin-right: -10;
+    right: 7px;
+    
+}
+i:hover{
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+.anh a{
+    display: none;
+}
+.anh:hover .anh1{
+display: none;
+}
+.anh:hover a{
+    display: block;
+}
+.text h3{
+    font-size: 18px;
+}
+.text h3 a:hover{
+    color: rgb(212, 133, 80);
+}
+.text p{
+font-size: 13px;
+font-weight: 200;
+}
+.text h4{
+    color: red;
+    font-size: 17px;
+}
+.card-img-top{
+    border-radius: unset;
+    width: 300px;
+   
+    margin-top: 0;
+}
+
+.vien{
+   
+    width: 300px;
+    height: 400px;
+    margin-left: 13px;
+   
+}
+.vien:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;   
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+   
+}
+
+#uu-dai{
+    display: none;
+}
+.xem-them #aa:target+#uu-dai{
+display: block;
+}
+.free{
+    
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.free h6{
+    font-size: 13px;
+}
+.free p{
+    font-size: 12px;
+}
+header div .nav_end li ul {
+    right: 300px;
+}
+header div .nav_end .nav_end_2 ul {
+    padding: 0;
+}
+.footer_noidung h3{
+    font-size: 20px;
+}
+.text h3{
+    font-weight: 400;
+    font-size: 16px;
+}
+.text h4{
+    font-size: 16px;
+    color: rgb(214, 136, 33);
+}
+
+.anh .sale{
+    width: 50px;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    color: #fff;
+    height: 25px;
+    background-color: red;
+} 
+.anh2 .gio-hang i{
+    position: absolute;
+   color: rgb(28, 97, 236);
+    top: 40px;
+    left: 270px;
+}
+.anh2 .gio-hang i:hover{
+   
+   color: rgb(243, 132, 58);
+   font-size: 18px;
+}
+.anh2 .yeu-thich i{
+    position: absolute;
+   color: rgb(255, 0, 0);
+    top: 10px;
+    left: 272px;
+}
+.anh2 .yeu-thich i:hover{
+   font-size: 18px;
+}
+.anh2 .size-card{
+    position: absolute;
+    top: 270px;
+    left: -25px;
+    
+}
+.anh2 .size-card a{
+    font-weight: 400;
+    color: rgba(0,0,0,0.7);
+    font-size: 13px;
+}
+.anh2 .size-card li:nth-child(2 ) a{
+    
+    color: rgb(243, 132, 58);
+    
+    text-decoration: underline;
+}
+.anh2 .size-card a:hover{
+    
+    color: rgb(243, 132, 58);
+    text-decoration: underline;
+}
+.gia p{
+    font-size: 13px;
+    text-decoration-line: line-through;
+    font-weight: 300;
+}
+.text-cam{
+    color:#3f3fdb;
+    
+}
+.text-mo{
+    font-weight: 300;
+}
+.font-chu{
+    font-size: 13px;
+}
+.text-dang-nhap-qua{
+    font-size: 10px;
+    font-weight: 400;
+}
+.bg-footer{
+    background-image: url(img/anh31.jpg);
+    color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size:cover;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.icon-footer i{
+    font-size: 40px;
+    margin: 10px;
+}
+.bg-footer h4{
+    font-size: 16px;
+}
+label{
+    color: black;
+}
+/* liên hệ */
+
+.lienhe {
+    color: blue;
+   
+    display: block;
+    width: 50px;
+     top: 500px;
+    left: 1430px; 
+   position: fixed;
+    
+}
+
+.lienhe li:nth-child(1) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(30, 111, 232);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+    display: block;
+    font-size: 25px;
+   
+    margin-bottom: 10px;
+    
+}
+.lienhe li:nth-child(2) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(238, 69, 18);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+    display: block;
+    font-size: 25px;
+    
+    margin-bottom: 10px;
+    
+}
+.lienhe li:nth-child(3) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 149, 255);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.lienhe li:nth-child(4) i{
+    color: rgb(255, 255, 255);
+    background-color: rgb(174, 90, 90);
+    text-align: center;
+    line-height: 40px;
+   width: 40px;
+   height: 40px;
+   border-radius: 100%;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.lienhe li i:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    color: blue;
+}
+.icon-img {
+
+    margin-left: 1100px;
+}
+
+.icon-img i {
+    margin-left: 15px;
+}
+
+.icon2-img img {
+    width: 50px;
+}
+
+.nav-img {
+    margin-right: 1080px;
+}
+
+@media only screen and (max-width: 768px){
+.card-img-top{
+width: 150px;
+}
+
+.vien{
+    width: 150px;
+    height: 320px;
+    margin-bottom: 10px;
+  
+}
+.gia h4,.gia p{
+   font-size: 12px;
+  margin: 2px;
+}
+.anne{
+    display: none;
+}
+.input{
+    display: none;
+    
+}
+.heart{
+    display: none;
+}
+.gio-hang{
+    display: none;
+}
+}
